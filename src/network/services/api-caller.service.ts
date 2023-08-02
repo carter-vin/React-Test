@@ -83,21 +83,9 @@ export async function get<Res>(
   }
   return Promise.resolve({ success: true, data: result as Res });
 }
-export async function put<Req, Res>(url: string, data: Req): Promise<Res> {
-  return Promise.resolve({} as Res);
-}
-export async function post<Req, Res>(url: string, data: Req): Promise<Res> {
-  return Promise.resolve({} as Res);
-}
-export async function destroy<Res>(url: string): Promise<Res> {
-  return Promise.resolve({} as Res);
-}
 
 const apiCallerService = {
   get,
-  put,
-  post,
-  destroy,
 };
 
 export default apiCallerService;

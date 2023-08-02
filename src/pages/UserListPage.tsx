@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Searchbox from "../components/Searchbox";
 import User, { UserModel } from "../components/User";
 import userService from "../network/services/user.service";
