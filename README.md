@@ -1,3 +1,4 @@
+```
 import './App.css'
 import React from 'react'
 
@@ -27,3 +28,4 @@ const sampleData: User[] = [
 { id: "6", rank: 6, name: "Emily Davis", email: "emily.davis@example.com", friends: [], image: 'https://picsum.photos/200' },
 { id: "7", rank: 7, name: "Christopher Wilson", email: "christopher.wilson@example.com", friends: [], image: 'https://picsum.photos/200' },
 ];
+```
